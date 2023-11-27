@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="2" skipped="1" tests="3" time="0.120" timestamp="2023-10-19T22:48:20.213660" hostname="zheka-virtual-machine"><testcase classname="py_srvcli.test.test_copyright" name="test_copyright" time="0.000"><skipped type="pytest.skip" message="No copyright header has been placed in the generated source file.">/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/py_srvcli/test/test_copyright.py:20: No copyright header has been placed in the generated source file.</skipped></testcase><testcase classname="py_srvcli.test.test_flake8" name="test_flake8" time="0.046"><failure message="AssertionError: Found 12 code style errors / warnings:&#10;  ./setup.py:22:5: W191 indentation contains tabs&#10;  ./setup.py:22:5: E101 indentation contains mixed spaces and tabs&#10;  ./setup.py:23:8: W191 indentation contains tabs&#10;  ./setup.py:23:8: E101 indentation contains mixed spaces and tabs&#10;  ./py_srvcli/client_member_function.py:81:100: E501 line too long (111 &gt; 99 characters)&#10;  ./py_srvcli/client_member_function.py:82:100: E501 line too long (111 &gt; 99 characters)&#10;  ./py_srvcli/service_member_function.py:35:100: E501 line too long (115 &gt; 99 characters)&#10;  ./py_srvcli/service_member_function.py:45:100: E501 line too long (115 &gt; 99 characters)&#10;  ./py_srvcli/service_member_function.py:48:100: E501 line too long (115 &gt; 99 characters)&#10;  ./py_srvcli/service_member_function.py:49:100: E501 line too long (115 &gt; 99 characters)&#10;  ./py_srvcli/service_member_function.py:53:1: E302 expected 2 blank lines, found 1&#10;  ./py_srvcli/service_member_function.py:62:1: E305 expected 2 blank lines after class or function definition, found 1&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 12 code style errors / warnings:
+E     ./setup.py:22:5: W191 indentation contains tabs
+E     ./setup.py:22:5: E101 indentation contains mixed spaces and tabs
+E     ./setup.py:23:8: W191 indentation contains tabs
+E     ./setup.py:23:8: E101 indentation contains mixed spaces and tabs
+E     ./py_srvcli/client_member_function.py:81:100: E501 line too long (111 &gt; 99 characters)
+E     ./py_srvcli/client_member_function.py:82:100: E501 line too long (111 &gt; 99 characters)
+E     ./py_srvcli/service_member_function.py:35:100: E501 line too long (115 &gt; 99 characters)
+E     ./py_srvcli/service_member_function.py:45:100: E501 line too long (115 &gt; 99 characters)
+E     ./py_srvcli/service_member_function.py:48:100: E501 line too long (115 &gt; 99 characters)
+E     ./py_srvcli/service_member_function.py:49:100: E501 line too long (115 &gt; 99 characters)
+E     ./py_srvcli/service_member_function.py:53:1: E302 expected 2 blank lines, found 1
+E     ./py_srvcli/service_member_function.py:62:1: E305 expected 2 blank lines after class or function definition, found 1
+E   assert 1 == 0</failure></testcase><testcase classname="py_srvcli.test.test_pep257" name="test_pep257" time="0.011"><failure message="AssertionError: Found code style errors / warnings&#10;assert 1 == 0">test/test_pep257.py:23: in test_pep257
+    assert rc == 0, 'Found code style errors / warnings'
+E   AssertionError: Found code style errors / warnings
+E   assert 1 == 0</failure></testcase></testsuite></testsuites>

@@ -1,0 +1,92 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/python_parameters/.pytest_cache
+rootdir: /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/python_parameters
+plugins: ament-lint-0.12.8, ament-copyright-0.12.8, ament-flake8-0.12.8, launch-testing-1.0.4, ament-pep257-0.12.8, ament-xmllint-0.12.8, launch-testing-ros-0.19.6, cov-3.0.0, colcon-core-0.15.0
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+    [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1m[31mE   AssertionError: Found 8 code style errors / warnings:[0m
+[1m[31mE     ./setup.py:15:1: W191 indentation contains tabs[0m
+[1m[31mE     ./setup.py:15:1: E101 indentation contains mixed spaces and tabs[0m
+[1m[31mE     ./setup.py:26:1: W191 indentation contains tabs[0m
+[1m[31mE     ./setup.py:26:1: E101 indentation contains mixed spaces and tabs[0m
+[1m[31mE     ./launch/python_parameters_launch.py:4:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./python_parameters/python_parameters_node.py:4:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./python_parameters/python_parameters_node.py:25:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./python_parameters/python_parameters_node.py:30:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./setup.py:15:1: W191 indentation contains tabs
+	(os.path.join('share', package_name), glob('launch/*launch.[pxy][yma]*')),
+^
+
+./setup.py:15:1: E101 indentation contains mixed spaces and tabs
+	(os.path.join('share', package_name), glob('launch/*launch.[pxy][yma]*')),
+^
+
+./setup.py:26:1: W191 indentation contains tabs
+	    'minimal_param_node = python_parameters.python_parameters_node:main',
+^
+
+./setup.py:26:1: E101 indentation contains mixed spaces and tabs
+	    'minimal_param_node = python_parameters.python_parameters_node:main',
+^
+
+./launch/python_parameters_launch.py:4:1: E302 expected 2 blank lines, found 1
+def generate_launch_description():
+^
+
+./python_parameters/python_parameters_node.py:4:1: E302 expected 2 blank lines, found 1
+class MinimalParam(rclpy.node.Node):
+^
+
+./python_parameters/python_parameters_node.py:25:1: E302 expected 2 blank lines, found 1
+def main():
+^
+
+./python_parameters/python_parameters_node.py:30:1: E305 expected 2 blank lines after class or function definition, found 1
+if __name__ == '__main__':
+^
+
+2     E101 indentation contains mixed spaces and tabs
+3     E302 expected 2 blank lines, found 1
+1     E305 expected 2 blank lines after class or function definition, found 1
+2     W191 indentation contains tabs
+
+7 files checked
+8 errors
+
+'E'-type errors: 6
+'W'-type errors: 2
+
+Checked files:
+
+* ./setup.py
+* ./test/test_flake8.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+* ./launch/python_parameters_launch.py
+* ./python_parameters/__init__.py
+* ./python_parameters/python_parameters_node.py
+----------------------------- Captured stderr call -----------------------------
+option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[33m=============================== warnings summary ===============================[0m
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+  Warning: SelectableGroups dict interface is deprecated. Use select.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated xml file: /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/python_parameters/pytest.xml -
+=========================== short test summary info ============================
+FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 8 code style ...
+[31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.18s[0m[31m ==============[0m

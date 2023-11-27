@@ -1,0 +1,34 @@
+UpdateCTestConfiguration  from :/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/action_tutorials_interfaces/CTestConfiguration.ini
+Parse Config file:/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/action_tutorials_interfaces/CTestConfiguration.ini
+   Site: zheka-virtual-machine
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20231019-1348 - Experimental
+UpdateCTestConfiguration  from :/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/action_tutorials_interfaces/CTestConfiguration.ini
+Parse Config file:/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/action_tutorials_interfaces/CTestConfiguration.ini
+Test project /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/action_tutorials_interfaces
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+                                        Start 1: lint_cmake
+1/2 Test #1: lint_cmake .......................***Not Run   0.00 sec
+test 2
+                                        Start 2: xmllint
+2/2 Test #2: xmllint ..........................***Not Run   0.00 sec
+
+0% tests passed[0;0m, [0;31m2 tests failed[0;0m out of 2
+
+Label Time Summary:
+lint_cmake    =   0.00 sec*proc (1 test)
+linter        =   0.00 sec*proc (2 tests)
+xmllint       =   0.00 sec*proc (1 test)
+
+Total Test time (real) =   0.00 sec
+
+The following tests FAILED:
+	[0;33m  1 - lint_cmake (Not Run)[0;0m
+	[0;33m  2 - xmllint (Not Run)[0;0m

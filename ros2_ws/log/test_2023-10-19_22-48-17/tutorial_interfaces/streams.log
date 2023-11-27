@@ -1,0 +1,59 @@
+[0.067s] Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces': AMENT_PREFIX_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.074s] UpdateCTestConfiguration  from :/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/CTestConfiguration.ini
+[0.074s] Parse Config file:/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/CTestConfiguration.ini
+[0.074s]    Site: zheka-virtual-machine
+[0.074s]    Build name: (empty)
+[0.075s]  Add coverage exclude regular expressions.
+[0.075s] Create new tag: 20231019-1348 - Experimental
+[0.075s] UpdateCTestConfiguration  from :/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/CTestConfiguration.ini
+[0.076s] Parse Config file:/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/CTestConfiguration.ini
+[0.076s] Test project /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces
+[0.076s] Constructing a list of tests
+[0.078s] Done constructing a list of tests
+[0.078s] Updating test list for fixtures
+[0.078s] Added 0 tests to meet fixture requirements
+[0.078s] Checking test dependency graph...
+[0.078s] Checking test dependency graph end
+[0.078s] test 1
+[0.078s]     Start 1: lint_cmake
+[0.078s] 
+[0.078s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml" "--package-name" "tutorial_interfaces" "--output-file" "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml"
+[0.078s] 1: Test timeout computed to be: 60
+[0.126s] 1: -- run_test.py: invoking following command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/tutorial_interfaces':
+[0.126s] 1:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml
+[0.163s] 1: 
+[0.163s] 1: No problems found
+[0.170s] 1: -- run_test.py: return code 0
+[0.170s] 1: -- run_test.py: verify result file '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml'
+[0.173s] 1/2 Test #1: lint_cmake .......................   Passed    0.10 sec
+[0.173s] test 2
+[0.173s]     Start 2: xmllint
+[0.173s] 
+[0.173s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml" "--package-name" "tutorial_interfaces" "--output-file" "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml"
+[0.173s] 2: Test timeout computed to be: 60
+[0.204s] 2: -- run_test.py: invoking following command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/tutorial_interfaces':
+[0.204s] 2:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml
+[1.590s] 2: File 'package.xml' is invalid:
+[1.590s] 2: /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/tutorial_interfaces/package.xml:19: element depend: Schemas validity error : Element 'depend': This element is not expected.
+[1.590s] 2: /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/tutorial_interfaces/package.xml fails to validate
+[1.590s] 2: 
+[1.590s] 2: 1 files are invalid
+[1.602s] 2: -- run_test.py: return code 1
+[1.602s] 2: -- run_test.py: verify result file '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml'
+[1.617s] 2/2 Test #2: xmllint ..........................***Failed    1.44 sec
+[1.618s] 
+[1.618s] 50% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 2
+[1.618s] 
+[1.618s] Label Time Summary:
+[1.618s] lint_cmake    =   0.10 sec*proc (1 test)
+[1.618s] linter        =   1.53 sec*proc (2 tests)
+[1.618s] xmllint       =   1.44 sec*proc (1 test)
+[1.618s] 
+[1.618s] Total Test time (real) =   1.54 sec
+[1.619s] 
+[1.619s] The following tests FAILED:
+[1.619s] 	[0;31m  2 - xmllint (Failed)[0;0m
+[1.619s] Errors while running CTest
+[1.619s] Output from these tests are in: /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/Testing/Temporary/LastTest.log
+[1.619s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[1.650s] Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces' returned '8': AMENT_PREFIX_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

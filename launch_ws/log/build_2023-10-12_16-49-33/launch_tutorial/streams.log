@@ -1,0 +1,21 @@
+[0.624s] Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/launch_ws/src/launch_tutorial': PYTHONPATH=/home/zheka/Smart-Mobility-Engineering-Lab/launch_ws/build/launch_tutorial/prefix_override:/home/zheka/Smart-Mobility-Engineering-Lab/launch_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/zheka/Smart-Mobility-Engineering-Lab/launch_ws/build/launch_tutorial/build install --record /home/zheka/Smart-Mobility-Engineering-Lab/launch_ws/build/launch_tutorial/install.log --single-version-externally-managed
+[0.871s] running egg_info
+[0.871s] writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[0.871s] writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[0.871s] writing entry points to ../../build/launch_tutorial/launch_tutorial.egg-info/entry_points.txt
+[0.872s] writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[0.872s] writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[0.872s] reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[0.873s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[0.873s] running build
+[0.873s] running build_py
+[0.876s] running install
+[0.876s] running install_lib
+[0.879s] running install_data
+[0.879s] copying launch/example_event_handlers.launch.py -> /home/zheka/Smart-Mobility-Engineering-Lab/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+[0.879s] running install_egg_info
+[0.879s] removing '/home/zheka/Smart-Mobility-Engineering-Lab/launch_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info' (and everything under it)
+[0.879s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/zheka/Smart-Mobility-Engineering-Lab/launch_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info
+[0.880s] running install_scripts
+[0.904s] writing list of installed files to '/home/zheka/Smart-Mobility-Engineering-Lab/launch_ws/build/launch_tutorial/install.log'
+[0.961s] Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/launch_ws/src/launch_tutorial' returned '0': PYTHONPATH=/home/zheka/Smart-Mobility-Engineering-Lab/launch_ws/build/launch_tutorial/prefix_override:/home/zheka/Smart-Mobility-Engineering-Lab/launch_ws/install/launch_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/zheka/Smart-Mobility-Engineering-Lab/launch_ws/build/launch_tutorial/build install --record /home/zheka/Smart-Mobility-Engineering-Lab/launch_ws/build/launch_tutorial/install.log --single-version-externally-managed

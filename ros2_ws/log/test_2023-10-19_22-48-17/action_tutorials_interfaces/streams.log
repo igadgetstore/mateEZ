@@ -1,0 +1,41 @@
+[0.043s] Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/action_tutorials_interfaces LD_LIBRARY_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.049s] UpdateCTestConfiguration  from :/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/action_tutorials_interfaces/CTestConfiguration.ini
+[0.049s] Parse Config file:/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/action_tutorials_interfaces/CTestConfiguration.ini
+[0.049s]    Site: zheka-virtual-machine
+[0.049s]    Build name: (empty)
+[0.049s]  Add coverage exclude regular expressions.
+[0.049s] Create new tag: 20231019-1348 - Experimental
+[0.049s] UpdateCTestConfiguration  from :/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/action_tutorials_interfaces/CTestConfiguration.ini
+[0.049s] Parse Config file:/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/action_tutorials_interfaces/CTestConfiguration.ini
+[0.050s] Test project /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/action_tutorials_interfaces
+[0.050s] Constructing a list of tests
+[0.050s] Done constructing a list of tests
+[0.050s] Updating test list for fixtures
+[0.050s] Added 0 tests to meet fixture requirements
+[0.050s] Checking test dependency graph...
+[0.050s] Checking test dependency graph end
+[0.050s] Failed to change working directory to /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/action_tutorials_interfaces : No such file or directory
+[0.050s] Failed to change working directory to /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/action_tutorials_interfaces : No such file or directory
+[0.050s] test 1
+[0.050s]                                         Start 1: lint_cmake
+[0.050s] 1/2 Test #1: lint_cmake .......................***Not Run   0.00 sec
+[0.050s] test 2
+[0.050s]                                         Start 2: xmllint
+[0.050s] 2/2 Test #2: xmllint ..........................***Not Run   0.00 sec
+[0.050s] 
+[0.050s] 0% tests passed[0;0m, [0;31m2 tests failed[0;0m out of 2
+[0.050s] 
+[0.050s] Label Time Summary:
+[0.050s] lint_cmake    =   0.00 sec*proc (1 test)
+[0.050s] linter        =   0.00 sec*proc (2 tests)
+[0.050s] xmllint       =   0.00 sec*proc (1 test)
+[0.050s] 
+[0.050s] Total Test time (real) =   0.00 sec
+[0.050s] 
+[0.050s] The following tests FAILED:
+[0.050s] 	[0;33m  1 - lint_cmake (Not Run)[0;0m
+[0.050s] 	[0;33m  2 - xmllint (Not Run)[0;0m
+[0.050s] Errors while running CTest
+[0.050s] Output from these tests are in: /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/action_tutorials_interfaces/Testing/Temporary/LastTest.log
+[0.051s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[0.052s] Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/action_tutorials_interfaces' returned '8': CMAKE_PREFIX_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/action_tutorials_interfaces LD_LIBRARY_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/action_tutorials_interfaces/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

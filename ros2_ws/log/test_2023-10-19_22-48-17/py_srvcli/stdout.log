@@ -1,0 +1,130 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_srvcli/.pytest_cache
+rootdir: /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/py_srvcli
+plugins: ament-lint-0.12.8, ament-copyright-0.12.8, ament-flake8-0.12.8, launch-testing-1.0.4, ament-pep257-0.12.8, ament-xmllint-0.12.8, launch-testing-ros-0.19.6, cov-3.0.0, colcon-core-0.15.0
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+test/test_pep257.py [31mF[0m[31m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+    [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1m[31mE   AssertionError: Found 12 code style errors / warnings:[0m
+[1m[31mE     ./setup.py:22:5: W191 indentation contains tabs[0m
+[1m[31mE     ./setup.py:22:5: E101 indentation contains mixed spaces and tabs[0m
+[1m[31mE     ./setup.py:23:8: W191 indentation contains tabs[0m
+[1m[31mE     ./setup.py:23:8: E101 indentation contains mixed spaces and tabs[0m
+[1m[31mE     ./py_srvcli/client_member_function.py:81:100: E501 line too long (111 > 99 characters)[0m
+[1m[31mE     ./py_srvcli/client_member_function.py:82:100: E501 line too long (111 > 99 characters)[0m
+[1m[31mE     ./py_srvcli/service_member_function.py:35:100: E501 line too long (115 > 99 characters)[0m
+[1m[31mE     ./py_srvcli/service_member_function.py:45:100: E501 line too long (115 > 99 characters)[0m
+[1m[31mE     ./py_srvcli/service_member_function.py:48:100: E501 line too long (115 > 99 characters)[0m
+[1m[31mE     ./py_srvcli/service_member_function.py:49:100: E501 line too long (115 > 99 characters)[0m
+[1m[31mE     ./py_srvcli/service_member_function.py:53:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./py_srvcli/service_member_function.py:62:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./setup.py:22:5: W191 indentation contains tabs
+    	'console_scripts': [
+    ^
+
+./setup.py:22:5: E101 indentation contains mixed spaces and tabs
+    	'console_scripts': [
+    ^
+
+./setup.py:23:8: W191 indentation contains tabs
+       	     'service = py_srvcli.service_member_function:main',
+       ^
+
+./setup.py:23:8: E101 indentation contains mixed spaces and tabs
+       	     'service = py_srvcli.service_member_function:main',
+       ^
+
+./py_srvcli/client_member_function.py:81:100: E501 line too long (111 > 99 characters)
+                    'Result of add_three_ints: for %d + %d + %d = %d' %                                # CHANGE
+                                                                                                   ^
+
+./py_srvcli/client_member_function.py:82:100: E501 line too long (111 > 99 characters)
+                    (minimal_client.req.a, minimal_client.req.b, minimal_client.req.c, response.sum))  # CHANGE
+                                                                                                   ^
+
+./py_srvcli/service_member_function.py:35:100: E501 line too long (115 > 99 characters)
+from tutorial_interfaces.srv import AddThreeInts                                                           # CHANGE
+                                                                                                   ^
+
+./py_srvcli/service_member_function.py:45:100: E501 line too long (115 > 99 characters)
+        self.srv = self.create_service(AddThreeInts, 'add_three_ints', self.add_three_ints_callback)       # CHANGE
+                                                                                                   ^
+
+./py_srvcli/service_member_function.py:48:100: E501 line too long (115 > 99 characters)
+        response.sum = request.a + request.b + request.c                                                   # CHANGE
+                                                                                                   ^
+
+./py_srvcli/service_member_function.py:49:100: E501 line too long (115 > 99 characters)
+        self.get_logger().info('Incoming request\na: %d b: %d c: %d' % (request.a, request.b, request.c))  # CHANGE
+                                                                                                   ^
+
+./py_srvcli/service_member_function.py:53:1: E302 expected 2 blank lines, found 1
+def main(args=None):
+^
+
+./py_srvcli/service_member_function.py:62:1: E305 expected 2 blank lines after class or function definition, found 1
+if __name__ == '__main__':
+^
+
+2     E101 indentation contains mixed spaces and tabs
+1     E302 expected 2 blank lines, found 1
+1     E305 expected 2 blank lines after class or function definition, found 1
+6     E501 line too long (111 > 99 characters)
+2     W191 indentation contains tabs
+
+7 files checked
+12 errors
+
+'E'-type errors: 10
+'W'-type errors: 2
+
+Checked files:
+
+* ./setup.py
+* ./test/test_flake8.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+* ./py_srvcli/__init__.py
+* ./py_srvcli/client_member_function.py
+* ./py_srvcli/service_member_function.py
+----------------------------- Captured stderr call -----------------------------
+option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[31m[1m_________________________________ test_pep257 __________________________________[0m
+[1m[31mtest/test_pep257.py[0m:23: in test_pep257
+    [94massert[39;49;00m rc == [94m0[39;49;00m, [33m'[39;49;00m[33mFound code style errors / warnings[39;49;00m[33m'[39;49;00m
+[1m[31mE   AssertionError: Found code style errors / warnings[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+checking ./py_srvcli/__init__.py
+checking ./py_srvcli/client_member_function.py
+./py_srvcli/client_member_function.py:1 at module level: D400: First line should end with a period (not 's')
+./py_srvcli/client_member_function.py:1 at module level: D415: First line should end with a period, question mark, or exclamation point (not 's')
+checking ./py_srvcli/service_member_function.py
+./py_srvcli/service_member_function.py:1 at module level: D301: Use r""" if any backslashes in a docstring
+./py_srvcli/service_member_function.py:1 at module level: D400: First line should end with a period (not 's')
+./py_srvcli/service_member_function.py:1 at module level: D415: First line should end with a period, question mark, or exclamation point (not 's')
+checking ./setup.py
+checking ./test/test_copyright.py
+checking ./test/test_flake8.py
+checking ./test/test_pep257.py
+checking test/test_copyright.py
+checking test/test_flake8.py
+checking test/test_pep257.py
+5 errors
+- generated xml file: /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_srvcli/pytest.xml -
+=========================== short test summary info ============================
+FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 12 code style...
+FAILED test/test_pep257.py::test_pep257 - AssertionError: Found code style er...
+[31m=================== [31m[1m2 failed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.14s[0m[31m ===================[0m

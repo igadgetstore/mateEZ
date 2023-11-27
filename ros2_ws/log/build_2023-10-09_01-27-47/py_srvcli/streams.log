@@ -1,0 +1,29 @@
+[0.360s] Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/py_srvcli': AMENT_PREFIX_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_srvcli/prefix_override:/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_srvcli/build install --record /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed
+[0.477s] running egg_info
+[0.477s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.477s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.477s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.477s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.477s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.478s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.479s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.479s] running build
+[0.479s] running build_py
+[0.479s] copying py_srvcli/client_member_function.py -> /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.479s] copying py_srvcli/service_member_function.py -> /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.479s] running install
+[0.479s] running install_lib
+[0.480s] copying /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.480s] copying /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.480s] byte-compiling /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-310.pyc
+[0.480s] byte-compiling /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[0.481s] running install_data
+[0.481s] copying package.xml -> /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_srvcli/share/py_srvcli
+[0.481s] running install_egg_info
+[0.482s] removing '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[0.482s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[0.482s] running install_scripts
+[0.494s] Installing client script to /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_srvcli/lib/py_srvcli
+[0.494s] Installing service script to /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_srvcli/lib/py_srvcli
+[0.495s] writing list of installed files to '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_srvcli/install.log'
+[0.510s] Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/py_srvcli' returned '0': AMENT_PREFIX_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_srvcli/prefix_override:/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_srvcli/build install --record /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed

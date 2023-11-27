@@ -1,0 +1,86 @@
+[0.025s] Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces -- -j2 -l2
+[0.045s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.125s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.165s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.182s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.183s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.187s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.204s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.291s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.388s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.389s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[0.389s]   tutorial_interfaces --arguments-file
+[0.389s]   /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/rosidl_adapter__arguments__tutorial_interfaces.json
+[0.389s]   --output-dir
+[0.389s]   /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces
+[0.389s]   --output-file
+[0.389s]   /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces.idls)
+[0.389s]   returned error code 1:
+[0.389s] 
+[0.389s]   Error processing 'int64 numint64 num' of 'tutorial_interfaces/Num': 'value
+[0.389s]   'num' can not be converted to type 'int64': must be a valid integer value
+[0.389s]   >= -9223372036854775808 and <= 9223372036854775807'
+[0.389s] 
+[0.389s]   Traceback (most recent call last):
+[0.389s] 
+[0.389s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 752, in parse_primitive_value_string
+[0.389s]       value = int(value_string)
+[0.389s] 
+[0.389s]   ValueError: invalid literal for int() with base 10: 'num'
+[0.389s] 
+[0.389s]   
+[0.389s] 
+[0.389s]   During handling of the above exception, another exception occurred:
+[0.389s] 
+[0.389s]   
+[0.389s] 
+[0.389s]   Traceback (most recent call last):
+[0.389s] 
+[0.389s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 755, in parse_primitive_value_string
+[0.389s]       value = int(value_string, 0)
+[0.389s] 
+[0.389s]   ValueError: invalid literal for int() with base 0: 'num'
+[0.389s] 
+[0.389s]   
+[0.389s] 
+[0.389s]   During handling of the above exception, another exception occurred:
+[0.390s] 
+[0.390s]   
+[0.390s] 
+[0.390s]   Traceback (most recent call last):
+[0.390s] 
+[0.390s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.390s]       return _run_code(code, main_globals, None,
+[0.390s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.390s]       exec(code, run_globals)
+[0.390s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.390s]       sys.exit(main())
+[0.390s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.390s]       abs_idl_file = convert_to_idl(
+[0.390s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.390s]       return convert_msg_to_idl(
+[0.390s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.390s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.390s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[0.390s]       fields.append(Field(
+[0.390s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 361, in __init__
+[0.390s]       self.default_value = parse_value_string(
+[0.390s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 594, in parse_value_string
+[0.390s]       return parse_primitive_value_string(type_, value_string)
+[0.390s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 757, in parse_primitive_value_string
+[0.390s]       raise ex
+[0.390s] 
+[0.390s]   rosidl_adapter.parser.InvalidValue: value 'num' can not be converted to
+[0.390s]   type 'int64': must be a valid integer value >= -9223372036854775808 and <=
+[0.390s]   9223372036854775807
+[0.390s] 
+[0.390s] Call Stack (most recent call first):
+[0.390s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.390s]   CMakeLists.txt:29 (rosidl_generate_interfaces)
+[0.390s] 
+[0.390s] [0m
+[0.390s] -- Configuring incomplete, errors occurred!
+[0.390s] See also "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.392s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1
+[0.393s] Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces -- -j2 -l2

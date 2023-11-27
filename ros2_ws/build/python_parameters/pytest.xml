@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="3" time="0.149" timestamp="2023-10-19T22:48:19.668228" hostname="zheka-virtual-machine"><testcase classname="python_parameters.test.test_copyright" name="test_copyright" time="0.000"><skipped type="pytest.skip" message="No copyright header has been placed in the generated source file.">/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/python_parameters/test/test_copyright.py:20: No copyright header has been placed in the generated source file.</skipped></testcase><testcase classname="python_parameters.test.test_flake8" name="test_flake8" time="0.064"><failure message="AssertionError: Found 8 code style errors / warnings:&#10;  ./setup.py:15:1: W191 indentation contains tabs&#10;  ./setup.py:15:1: E101 indentation contains mixed spaces and tabs&#10;  ./setup.py:26:1: W191 indentation contains tabs&#10;  ./setup.py:26:1: E101 indentation contains mixed spaces and tabs&#10;  ./launch/python_parameters_launch.py:4:1: E302 expected 2 blank lines, found 1&#10;  ./python_parameters/python_parameters_node.py:4:1: E302 expected 2 blank lines, found 1&#10;  ./python_parameters/python_parameters_node.py:25:1: E302 expected 2 blank lines, found 1&#10;  ./python_parameters/python_parameters_node.py:30:1: E305 expected 2 blank lines after class or function definition, found 1&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 8 code style errors / warnings:
+E     ./setup.py:15:1: W191 indentation contains tabs
+E     ./setup.py:15:1: E101 indentation contains mixed spaces and tabs
+E     ./setup.py:26:1: W191 indentation contains tabs
+E     ./setup.py:26:1: E101 indentation contains mixed spaces and tabs
+E     ./launch/python_parameters_launch.py:4:1: E302 expected 2 blank lines, found 1
+E     ./python_parameters/python_parameters_node.py:4:1: E302 expected 2 blank lines, found 1
+E     ./python_parameters/python_parameters_node.py:25:1: E302 expected 2 blank lines, found 1
+E     ./python_parameters/python_parameters_node.py:30:1: E305 expected 2 blank lines after class or function definition, found 1
+E   assert 1 == 0</failure></testcase><testcase classname="python_parameters.test.test_pep257" name="test_pep257" time="0.009" /></testsuite></testsuites>

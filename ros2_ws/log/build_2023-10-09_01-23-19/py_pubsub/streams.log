@@ -1,0 +1,29 @@
+[0.341s] Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/py_pubsub': AMENT_PREFIX_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_pubsub/prefix_override:/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_pubsub/build install --record /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed
+[0.454s] running egg_info
+[0.454s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.455s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.455s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.455s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.455s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.456s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.456s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.456s] running build
+[0.456s] running build_py
+[0.456s] copying py_pubsub/subscriber_member_function.py -> /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.456s] copying py_pubsub/publisher_member_function.py -> /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.456s] running install
+[0.457s] running install_lib
+[0.457s] copying /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.457s] copying /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.457s] byte-compiling /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.458s] byte-compiling /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.458s] running install_data
+[0.458s] copying package.xml -> /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_pubsub/share/py_pubsub
+[0.458s] running install_egg_info
+[0.459s] removing '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.459s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[0.459s] running install_scripts
+[0.470s] Installing listener script to /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.470s] Installing talker script to /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.470s] writing list of installed files to '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_pubsub/install.log'
+[0.483s] Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/py_pubsub' returned '0': AMENT_PREFIX_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_pubsub/prefix_override:/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_pubsub/build install --record /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed

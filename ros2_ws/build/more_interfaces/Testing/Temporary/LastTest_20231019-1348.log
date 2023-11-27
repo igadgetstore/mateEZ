@@ -1,0 +1,101 @@
+Start testing: Oct 19 22:48 KST
+----------------------------------------------------------
+1/4 Testing: cppcheck
+1/4 Test: cppcheck
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/test_results/more_interfaces/cppcheck.xunit.xml" "--package-name" "more_interfaces" "--output-file" "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/test_results/more_interfaces/cppcheck.xunit.xml"
+Directory: /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/more_interfaces
+"cppcheck" start time: Oct 19 22:48 KST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/more_interfaces':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/test_results/more_interfaces/cppcheck.xunit.xml
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/test_results/more_interfaces/cppcheck.xunit.xml'
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck" end time: Oct 19 22:48 KST
+"cppcheck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: lint_cmake
+2/4 Test: lint_cmake
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/test_results/more_interfaces/lint_cmake.xunit.xml" "--package-name" "more_interfaces" "--output-file" "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/test_results/more_interfaces/lint_cmake.xunit.xml"
+Directory: /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/more_interfaces
+"lint_cmake" start time: Oct 19 22:48 KST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/more_interfaces':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/test_results/more_interfaces/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/test_results/more_interfaces/lint_cmake.xunit.xml'
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"lint_cmake" end time: Oct 19 22:48 KST
+"lint_cmake" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: uncrustify
+3/4 Test: uncrustify
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/test_results/more_interfaces/uncrustify.xunit.xml" "--package-name" "more_interfaces" "--output-file" "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/test_results/more_interfaces/uncrustify.xunit.xml"
+Directory: /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/more_interfaces
+"uncrustify" start time: Oct 19 22:48 KST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/more_interfaces':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/test_results/more_interfaces/uncrustify.xunit.xml
+No code style divergence in file 'src/publish_address_book.cpp'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/test_results/more_interfaces/uncrustify.xunit.xml'
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify" end time: Oct 19 22:48 KST
+"uncrustify" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: xmllint
+4/4 Test: xmllint
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/test_results/more_interfaces/xmllint.xunit.xml" "--package-name" "more_interfaces" "--output-file" "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/test_results/more_interfaces/xmllint.xunit.xml"
+Directory: /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/more_interfaces
+"xmllint" start time: Oct 19 22:48 KST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/more_interfaces':
+ - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/test_results/more_interfaces/xmllint.xunit.xml
+File 'package.xml' is invalid:
+/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/more_interfaces/package.xml:18: element test_depend: Schemas validity error : Element 'test_depend': This element is not expected. Expected is one of ( member_of_group, export ).
+/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/more_interfaces/package.xml fails to validate
+
+1 files are invalid
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/test_results/more_interfaces/xmllint.xunit.xml'
+<end of output>
+Test time =   1.21 sec
+----------------------------------------------------------
+Test Failed.
+"xmllint" end time: Oct 19 22:48 KST
+"xmllint" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Oct 19 22:48 KST
+
+cppcheck =   0.10 sec*proc
+
+lint_cmake =   0.07 sec*proc
+
+linter =   1.48 sec*proc
+
+uncrustify =   0.09 sec*proc
+
+xmllint =   1.21 sec*proc
+

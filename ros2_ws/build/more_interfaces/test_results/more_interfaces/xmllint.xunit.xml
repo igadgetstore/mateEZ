@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="more_interfaces.xmllint"
+  tests="1"
+  errors="0"
+  failures="1"
+  time="1.123"
+>
+  <testcase
+    name="package.xml"
+    classname="more_interfaces.xmllint"
+  >
+      <failure message="Diff with 335 lines"><![CDATA[/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/more_interfaces/package.xml:18: element test_depend: Schemas validity error : Element 'test_depend': This element is not expected. Expected is one of ( member_of_group, export ).
+/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/more_interfaces/package.xml fails to validate
+]]></failure>
+  </testcase>
+  <system-out>Checked files:
+* package.xml</system-out>
+</testsuite>

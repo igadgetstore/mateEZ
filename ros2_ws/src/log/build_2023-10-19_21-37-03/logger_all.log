@@ -1,0 +1,473 @@
+[0.461s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.461s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8ca9fcd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8ca88af0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8ca88af0>>)
+[0.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.493s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_interfaces) by extension 'ignore'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_interfaces) by extension 'ignore_ament_install'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_interfaces) by extensions ['colcon_pkg']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_interfaces) by extension 'colcon_pkg'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_interfaces) by extensions ['colcon_meta']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_interfaces) by extension 'colcon_meta'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_interfaces) by extensions ['ros']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(action_tutorials_interfaces) by extension 'ros'
+[0.502s] DEBUG:colcon.colcon_core.package_identification:Package 'action_tutorials_interfaces' with type 'ros.ament_cmake' and name 'action_tutorials_interfaces'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(more_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(more_interfaces) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(more_interfaces) by extension 'ignore_ament_install'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(more_interfaces) by extensions ['colcon_pkg']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(more_interfaces) by extension 'colcon_pkg'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(more_interfaces) by extensions ['colcon_meta']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(more_interfaces) by extension 'colcon_meta'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(more_interfaces) by extensions ['ros']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(more_interfaces) by extension 'ros'
+[0.502s] DEBUG:colcon.colcon_core.package_identification:Package 'more_interfaces' with type 'ros.ament_cmake' and name 'more_interfaces'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(py_pubsub) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(py_pubsub) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(py_pubsub) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(py_pubsub) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(py_pubsub) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(py_pubsub) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(py_pubsub) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(py_pubsub) by extension 'ros'
+[0.503s] DEBUG:colcon.colcon_core.package_identification:Package 'py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'colcon_meta'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extensions ['ros']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(py_srvcli) by extension 'ros'
+[0.503s] DEBUG:colcon.colcon_core.package_identification:Package 'py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(python_parameters) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(python_parameters) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(python_parameters) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(python_parameters) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(python_parameters) by extension 'colcon_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(python_parameters) by extensions ['colcon_meta']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(python_parameters) by extension 'colcon_meta'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(python_parameters) by extensions ['ros']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(python_parameters) by extension 'ros'
+[0.504s] DEBUG:colcon.colcon_core.package_identification:Package 'python_parameters' with type 'ros.ament_python' and name 'python_parameters'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ignore_ament_install'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['colcon_pkg']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'colcon_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['colcon_meta']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'colcon_meta'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['ros']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ros'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['cmake', 'python']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'cmake'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'python'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['python_setup_py']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'python_setup_py'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/ros_tutorials) ignored
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/roscpp_tutorials) ignored
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/rospy_tutorials) ignored
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extensions ['ros']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials/turtlesim) by extension 'ros'
+[0.505s] DEBUG:colcon.colcon_core.package_identification:Package 'ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(tutorial_interfaces) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(tutorial_interfaces) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(tutorial_interfaces) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(tutorial_interfaces) by extension 'colcon_pkg'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(tutorial_interfaces) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(tutorial_interfaces) by extension 'colcon_meta'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(tutorial_interfaces) by extensions ['ros']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(tutorial_interfaces) by extension 'ros'
+[0.506s] DEBUG:colcon.colcon_core.package_identification:Package 'tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(urdf_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(urdf_tutorial) by extension 'ignore'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(urdf_tutorial) by extension 'ignore_ament_install'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(urdf_tutorial) by extensions ['colcon_pkg']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(urdf_tutorial) by extension 'colcon_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(urdf_tutorial) by extensions ['colcon_meta']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(urdf_tutorial) by extension 'colcon_meta'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(urdf_tutorial) by extensions ['ros']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(urdf_tutorial) by extension 'ros'
+[0.506s] DEBUG:colcon.colcon_core.package_identification:Package 'urdf_tutorial' with type 'ros.catkin' and name 'urdf_tutorial'
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.506s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.555s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.567s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/humble
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.606s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'action_tutorials_interfaces' is in: /opt/ros/humble
+	'turtlesim' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding action_tutorials_interfaces turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'action_tutorials_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.612s] DEBUG:colcon.colcon_core.verb:Building package 'action_tutorials_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/action_tutorials_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces', 'merge_install': False, 'path': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/action_tutorials_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'more_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.618s] DEBUG:colcon.colcon_core.verb:Building package 'more_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/more_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces', 'merge_install': False, 'path': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/more_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_args' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_target' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_clean_first' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_force_configure' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'ament_cmake_args' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.624s] DEBUG:colcon.colcon_core.verb:Building package 'python_parameters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/python_parameters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters', 'merge_install': False, 'path': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/python_parameters', 'symlink_install': False, 'test_result_base': None}
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.630s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.630s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/turtlesim', 'merge_install': False, 'path': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.636s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/tutorial_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_args' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.642s] DEBUG:colcon.colcon_core.verb:Building package 'urdf_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/urdf_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/urdf_tutorial', 'merge_install': False, 'path': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/urdf_tutorial', 'symlink_install': False, 'test_result_base': None}
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.648s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/py_pubsub', 'merge_install': False, 'path': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.654s] DEBUG:colcon.colcon_core.verb:Building package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/py_srvcli', 'merge_install': False, 'path': '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/py_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.659s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.665s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.665s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/tutorial_interfaces' with build type 'ament_cmake'
+[0.665s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/tutorial_interfaces'
+[0.674s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.674s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.674s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.688s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/action_tutorials_interfaces' with build type 'ament_cmake'
+[0.688s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/action_tutorials_interfaces'
+[0.695s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.695s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces
+[0.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces
+[1.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces
+[1.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/action_tutorials_interfaces -- -j2 -l2
+[2.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces
+[2.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/tutorial_interfaces -- -j2 -l2
+[6.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/action_tutorials_interfaces -- -j2 -l2
+[6.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/action_tutorials_interfaces
+[6.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_tutorials_interfaces)
+[6.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/action_tutorials_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/action_tutorials_interfaces
+[6.818s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces' for CMake module files
+[6.818s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces' for CMake config files
+[6.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'cmake_prefix_path')
+[6.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.ps1'
+[6.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.dsv'
+[6.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.sh'
+[6.826s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/lib'
+[6.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'ld_library_path_lib')
+[6.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.ps1'
+[6.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.dsv'
+[6.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.sh'
+[6.832s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/bin'
+[6.832s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/lib/pkgconfig/action_tutorials_interfaces.pc'
+[6.832s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/lib/python3.10/site-packages'
+[6.832s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/bin'
+[6.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.ps1'
+[6.845s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv'
+[6.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.sh'
+[6.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.bash'
+[6.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.zsh'
+[6.847s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/colcon-core/packages/action_tutorials_interfaces)
+[6.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_tutorials_interfaces)
+[6.901s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces' for CMake module files
+[6.901s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces' for CMake config files
+[6.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'cmake_prefix_path')
+[6.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.ps1'
+[6.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.dsv'
+[6.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/cmake_prefix_path.sh'
+[6.908s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/lib'
+[6.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_tutorials_interfaces', 'ld_library_path_lib')
+[6.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.ps1'
+[6.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.dsv'
+[6.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/hook/ld_library_path_lib.sh'
+[6.914s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/bin'
+[6.914s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/lib/pkgconfig/action_tutorials_interfaces.pc'
+[6.914s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/lib/python3.10/site-packages'
+[6.914s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/bin'
+[6.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.ps1'
+[6.920s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.dsv'
+[6.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.sh'
+[6.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.bash'
+[6.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/action_tutorials_interfaces/package.zsh'
+[6.920s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/action_tutorials_interfaces/share/colcon-core/packages/action_tutorials_interfaces)
+[6.921s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/more_interfaces' with build type 'ament_cmake'
+[6.921s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/more_interfaces'
+[6.928s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.928s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces
+[7.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/tutorial_interfaces -- -j2 -l2
+[7.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/tutorial_interfaces
+[7.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[7.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/tutorial_interfaces
+[7.702s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces' for CMake module files
+[7.702s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces' for CMake config files
+[7.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[7.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[7.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[7.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[7.714s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/lib'
+[7.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[7.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[7.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[7.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[7.720s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/bin'
+[7.720s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[7.720s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/lib/python3.10/site-packages'
+[7.721s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/bin'
+[7.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[7.727s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[7.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[7.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[7.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[7.727s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[7.806s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[7.812s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces' for CMake module files
+[7.812s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces' for CMake config files
+[7.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[7.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[7.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[7.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[7.824s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/lib'
+[7.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[7.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[7.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[7.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[7.831s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/bin'
+[7.831s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[7.831s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/lib/python3.10/site-packages'
+[7.831s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/bin'
+[7.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[7.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[7.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[7.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[7.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[7.838s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[7.838s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/python_parameters' with build type 'ament_python'
+[7.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_parameters', 'ament_prefix_path')
+[7.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/share/python_parameters/hook/ament_prefix_path.ps1'
+[7.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/share/python_parameters/hook/ament_prefix_path.dsv'
+[7.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/share/python_parameters/hook/ament_prefix_path.sh'
+[7.852s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.852s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.027s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/python_parameters'
+[8.034s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.034s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/python_parameters': PYTHONPATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/python_parameters/prefix_override:/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_parameters build --build-base /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/python_parameters/build install --record /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/python_parameters/install.log --single-version-externally-managed
+[8.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/python_parameters' returned '0': PYTHONPATH=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/python_parameters/prefix_override:/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_parameters build --build-base /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/python_parameters/build install --record /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/python_parameters/install.log --single-version-externally-managed
+[8.397s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters' for CMake module files
+[8.398s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters' for CMake config files
+[8.398s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/lib'
+[8.398s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/bin'
+[8.398s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/lib/pkgconfig/python_parameters.pc'
+[8.398s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/lib/python3.10/site-packages'
+[8.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_parameters', 'pythonpath')
+[8.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/share/python_parameters/hook/pythonpath.ps1'
+[8.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/share/python_parameters/hook/pythonpath.dsv'
+[8.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/share/python_parameters/hook/pythonpath.sh'
+[8.404s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/bin'
+[8.404s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(python_parameters)
+[8.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/share/python_parameters/package.ps1'
+[8.410s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/share/python_parameters/package.dsv'
+[8.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/share/python_parameters/package.sh'
+[8.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/share/python_parameters/package.bash'
+[8.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/share/python_parameters/package.zsh'
+[8.410s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/python_parameters/share/colcon-core/packages/python_parameters)
+[8.411s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[8.411s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/ros_tutorials/turtlesim'
+[8.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/turtlesim
+[8.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces
+[8.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/more_interfaces -- -j2 -l2
+[10.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/turtlesim
+[10.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/turtlesim -- -j2 -l2
+[13.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/more_interfaces -- -j2 -l2
+[14.240s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/more_interfaces
+[14.297s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(more_interfaces)
+[14.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/more_interfaces
+[14.304s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces' for CMake module files
+[14.304s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces' for CMake config files
+[14.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'cmake_prefix_path')
+[14.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.ps1'
+[14.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.dsv'
+[14.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.sh'
+[14.320s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/lib'
+[14.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'ld_library_path_lib')
+[14.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.ps1'
+[14.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.dsv'
+[14.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.sh'
+[14.336s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/bin'
+[14.336s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/lib/pkgconfig/more_interfaces.pc'
+[14.336s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/lib/python3.10/site-packages'
+[14.336s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/bin'
+[14.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/package.ps1'
+[14.345s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/package.dsv'
+[14.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/package.sh'
+[14.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/package.bash'
+[14.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/package.zsh'
+[14.350s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/colcon-core/packages/more_interfaces)
+[14.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(more_interfaces)
+[14.739s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces' for CMake module files
+[14.740s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces' for CMake config files
+[14.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'cmake_prefix_path')
+[14.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.ps1'
+[14.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.dsv'
+[14.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/hook/cmake_prefix_path.sh'
+[14.753s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/lib'
+[14.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('more_interfaces', 'ld_library_path_lib')
+[14.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.ps1'
+[14.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.dsv'
+[14.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/hook/ld_library_path_lib.sh'
+[14.760s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/bin'
+[14.760s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/lib/pkgconfig/more_interfaces.pc'
+[14.761s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/lib/python3.10/site-packages'
+[14.761s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/bin'
+[14.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/package.ps1'
+[14.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/package.dsv'
+[14.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/package.sh'
+[14.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/package.bash'
+[14.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/more_interfaces/package.zsh'
+[14.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/more_interfaces/share/colcon-core/packages/more_interfaces)
+[14.774s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/urdf_tutorial' with build type 'catkin'
+[14.774s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/urdf_tutorial'
+[14.780s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.780s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/urdf_tutorial': /usr/bin/cmake /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/urdf_tutorial
+[15.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/build/urdf_tutorial' returned '1': /usr/bin/cmake /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/urdf_tutorial
+[15.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdf_tutorial)
+[15.408s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/urdf_tutorial' for CMake module files
+[15.408s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/urdf_tutorial' for CMake config files
+[15.408s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/urdf_tutorial/bin'
+[15.408s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/urdf_tutorial/lib/pkgconfig/urdf_tutorial.pc'
+[15.408s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/urdf_tutorial/lib/python3.10/site-packages'
+[15.408s] Level 1:colcon.colcon_core.environment:checking '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/urdf_tutorial/bin'
+[15.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/urdf_tutorial/share/urdf_tutorial/package.ps1'
+[15.419s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/urdf_tutorial/share/urdf_tutorial/package.dsv'
+[15.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/urdf_tutorial/share/urdf_tutorial/package.sh'
+[15.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/urdf_tutorial/share/urdf_tutorial/package.bash'
+[15.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/urdf_tutorial/share/urdf_tutorial/package.zsh'
+[15.419s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/urdf_tutorial/share/colcon-core/packages/urdf_tutorial)
+[36.980s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[36.982s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[36.982s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[36.983s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[37.075s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[37.075s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[37.075s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[37.178s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[37.188s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/local_setup.ps1'
+[37.191s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/_local_setup_util_ps1.py'
+[37.194s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/setup.ps1'
+[37.204s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/local_setup.sh'
+[37.205s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/_local_setup_util_sh.py'
+[37.206s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/setup.sh'
+[37.217s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/local_setup.bash'
+[37.217s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/setup.bash'
+[37.228s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/local_setup.zsh'
+[37.229s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/install/setup.zsh'

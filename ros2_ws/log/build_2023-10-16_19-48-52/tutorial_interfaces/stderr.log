@@ -1,0 +1,73 @@
+[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+  tutorial_interfaces --arguments-file
+  /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/rosidl_adapter__arguments__tutorial_interfaces.json
+  --output-dir
+  /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces
+  --output-file
+  /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces.idls)
+  returned error code 1:
+
+  Error processing 'int64 numint64 num' of 'tutorial_interfaces/Num': 'value
+  'num' can not be converted to type 'int64': must be a valid integer value
+  >= -9223372036854775808 and <= 9223372036854775807'
+
+  Traceback (most recent call last):
+
+    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 752, in parse_primitive_value_string
+      value = int(value_string)
+
+  ValueError: invalid literal for int() with base 10: 'num'
+
+  
+
+  During handling of the above exception, another exception occurred:
+
+  
+
+  Traceback (most recent call last):
+
+    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 755, in parse_primitive_value_string
+      value = int(value_string, 0)
+
+  ValueError: invalid literal for int() with base 0: 'num'
+
+  
+
+  During handling of the above exception, another exception occurred:
+
+  
+
+  Traceback (most recent call last):
+
+    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+      return _run_code(code, main_globals, None,
+    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+      exec(code, run_globals)
+    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+      sys.exit(main())
+    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+      abs_idl_file = convert_to_idl(
+    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+      return convert_msg_to_idl(
+    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+      msg = parse_message_string(package_name, input_file.stem, content)
+    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+      fields.append(Field(
+    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 361, in __init__
+      self.default_value = parse_value_string(
+    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 594, in parse_value_string
+      return parse_primitive_value_string(type_, value_string)
+    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 757, in parse_primitive_value_string
+      raise ex
+
+  rosidl_adapter.parser.InvalidValue: value 'num' can not be converted to
+  type 'int64': must be a valid integer value >= -9223372036854775808 and <=
+  9223372036854775807
+
+Call Stack (most recent call first):
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+  CMakeLists.txt:29 (rosidl_generate_interfaces)
+
+[0m
+gmake: *** [Makefile:1179: cmake_check_build_system] Error 1

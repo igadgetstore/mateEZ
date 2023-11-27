@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/more_interfaces':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/test_results/more_interfaces/cppcheck.xunit.xml
+
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/more_interfaces/test_results/more_interfaces/cppcheck.xunit.xml'
