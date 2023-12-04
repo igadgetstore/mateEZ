@@ -1,5 +1,0 @@
-[0.025s] Invoking command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/action_tutorials_interfaces -- -j2 -l2
-[0.040s] [0mCMake Error: The source directory "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/action_tutorials_interfaces" does not exist.
-[0.040s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.041s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
-[0.043s] Invoked command in '/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/action_tutorials_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/build/action_tutorials_interfaces -- -j2 -l2

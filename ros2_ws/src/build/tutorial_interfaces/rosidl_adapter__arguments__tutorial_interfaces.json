@@ -1,8 +1,0 @@
-{
-  "package_name": "tutorial_interfaces",
-  "non_idl_tuples": [
-    "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/tutorial_interfaces:msg/Num.msg",
-    "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/tutorial_interfaces:msg/Sphere.msg",
-    "/home/zheka/Smart-Mobility-Engineering-Lab/ros2_ws/src/tutorial_interfaces:srv/AddThreeInts.srv"
-  ]
-}
