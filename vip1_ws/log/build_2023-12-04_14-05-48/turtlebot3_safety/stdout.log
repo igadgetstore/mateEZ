@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/turtlebot3_safety/autonomous_driving.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot3_safety/autonomous_driving.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot3_safety/autonomous_driving.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot3_safety/autonomous_driving.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot3_safety/autonomous_driving.egg-info/top_level.txt
+reading manifest file '../../build/turtlebot3_safety/autonomous_driving.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot3_safety/autonomous_driving.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/obstacle_avoidance.launch.py -> /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/share/autonomous_driving/launch
+copying launch/wall_following.launch.py -> /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/share/autonomous_driving/launch
+copying worlds/wall_following.sdf -> /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/share/autonomous_driving/worlds
+copying worlds/wall_following.world -> /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/share/autonomous_driving/worlds
+copying worlds/obstacle_avoidance.sdf -> /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/share/autonomous_driving/worlds
+copying worlds/obstacle_avoidance.world -> /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/share/autonomous_driving/worlds
+running install_egg_info
+removing '/home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/python3.10/site-packages/autonomous_driving-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/turtlebot3_safety/autonomous_driving.egg-info to /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/python3.10/site-packages/autonomous_driving-0.1.0-py3.10.egg-info
+running install_scripts
+Installing obstacle_avoidance script to /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/autonomous_driving
+Installing wall_following script to /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/autonomous_driving
+writing list of installed files to '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/install.log'

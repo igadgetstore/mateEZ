@@ -1,0 +1,4 @@
+[console_scripts]
+obstacle_avoidance = autonomous_driving.obstacle_avoidance:main
+wall_following = autonomous_driving.wall_following:main
+

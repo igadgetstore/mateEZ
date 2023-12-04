@@ -1,0 +1,38 @@
+[0.794s] Invoking command in '/home/risimon/mateEZ/vip1_ws/src/autonomous_driving': AMENT_PREFIX_PATH=/home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/prefix_override:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_safety build --build-base /home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/build install --record /home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/install.log --single-version-externally-managed
+[1.022s] running egg_info
+[1.022s] creating ../../build/turtlebot3_safety/autonomous_driving.egg-info
+[1.022s] writing ../../build/turtlebot3_safety/autonomous_driving.egg-info/PKG-INFO
+[1.023s] writing dependency_links to ../../build/turtlebot3_safety/autonomous_driving.egg-info/dependency_links.txt
+[1.023s] writing entry points to ../../build/turtlebot3_safety/autonomous_driving.egg-info/entry_points.txt
+[1.023s] writing requirements to ../../build/turtlebot3_safety/autonomous_driving.egg-info/requires.txt
+[1.023s] writing top-level names to ../../build/turtlebot3_safety/autonomous_driving.egg-info/top_level.txt
+[1.023s] writing manifest file '../../build/turtlebot3_safety/autonomous_driving.egg-info/SOURCES.txt'
+[1.025s] reading manifest file '../../build/turtlebot3_safety/autonomous_driving.egg-info/SOURCES.txt'
+[1.026s] writing manifest file '../../build/turtlebot3_safety/autonomous_driving.egg-info/SOURCES.txt'
+[1.026s] running build
+[1.026s] running build_py
+[1.026s] creating /home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/build
+[1.026s] creating /home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/build/lib
+[1.026s] creating /home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/build/lib/autonomous_driving
+[1.026s] copying autonomous_driving/__init__.py -> /home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/build/lib/autonomous_driving
+[1.026s] running install
+[1.027s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.027s]   warnings.warn(
+[1.027s] running install_lib
+[1.028s] creating /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/python3.10/site-packages/autonomous_driving
+[1.028s] copying /home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/build/lib/autonomous_driving/__init__.py -> /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/python3.10/site-packages/autonomous_driving
+[1.029s] byte-compiling /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/python3.10/site-packages/autonomous_driving/__init__.py to __init__.cpython-310.pyc
+[1.029s] running install_data
+[1.030s] copying resource/autonomous_driving -> /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/share/ament_index/resource_index/packages
+[1.030s] creating /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/share/autonomous_driving
+[1.030s] copying package.xml -> /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/share/autonomous_driving
+[1.030s] creating /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/share/autonomous_driving/launch
+[1.030s] creating /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/share/autonomous_driving/rviz
+[1.031s] creating /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/share/autonomous_driving/worlds
+[1.031s] running install_egg_info
+[1.032s] Copying ../../build/turtlebot3_safety/autonomous_driving.egg-info to /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/python3.10/site-packages/autonomous_driving-0.1.0-py3.10.egg-info
+[1.033s] running install_scripts
+[1.054s] Installing obstacle_avoidance script to /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/autonomous_driving
+[1.054s] Installing wall_following script to /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/autonomous_driving
+[1.054s] writing list of installed files to '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/install.log'
+[1.088s] Invoked command in '/home/risimon/mateEZ/vip1_ws/src/autonomous_driving' returned '0': AMENT_PREFIX_PATH=/home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/prefix_override:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlebot3_safety build --build-base /home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/build install --record /home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/install.log --single-version-externally-managed

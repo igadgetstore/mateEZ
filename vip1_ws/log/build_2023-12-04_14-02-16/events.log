@@ -1,0 +1,658 @@
+[0.000000] (-) TimerEvent: {}
+[0.000420] (turtlebot3_fake_node) JobQueued: {'identifier': 'turtlebot3_fake_node', 'dependencies': OrderedDict()}
+[0.000487] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.000527] (turtlebot3_simulations) JobQueued: {'identifier': 'turtlebot3_simulations', 'dependencies': OrderedDict([('turtlebot3_fake_node', '/home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node'), ('turtlebot3_gazebo', '/home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo')])}
+[0.000683] (turtlebot3_safety) JobQueued: {'identifier': 'turtlebot3_safety', 'dependencies': OrderedDict([('turtlebot3_fake_node', '/home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node'), ('turtlebot3_gazebo', '/home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo'), ('turtlebot3_simulations', '/home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations')])}
+[0.000808] (turtlebot3_fake_node) JobStarted: {'identifier': 'turtlebot3_fake_node'}
+[0.080225] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.099085] (-) TimerEvent: {}
+[0.155731] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'cmake'}
+[0.156096] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '/home/risimon/mateEZ/vip1_ws/src/turtlebot3_simulations/turtlebot3_fake_node', '-DCMAKE_INSTALL_PREFIX=/home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node'], 'cwd': '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_fake_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'risimon'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/risimon'), ('OLDPWD', '/home/risimon/mateEZ/vip1_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1001'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install:/home/risimon/tst/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'risimon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'risimon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/risimon-Jupiter:@/tmp/.ICE-unix/1001,unix/risimon-Jupiter:/tmp/.ICE-unix/1001'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2b4fd427_5fe0_47a7_af16_73ebd17bf3e0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.16ADF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_fake_node'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/risimon/turtlebot3_ws/build/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_safety/lib/python3.10/site-packages:/home/risimon/turtlebot3_ws/build/turtlebot3_battery_status:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status/lib/python3.10/site-packages:/home/risimon/tst/build/turtlebot3_safety:/home/risimon/tst/install/turtlebot3_safety/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble')]), 'shell': False}
+[0.161018] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.161406] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/risimon/mateEZ/vip1_ws/src/turtlebot3_simulations/turtlebot3_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo'], 'cwd': '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'risimon'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/risimon'), ('OLDPWD', '/home/risimon/mateEZ/vip1_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1001'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install:/home/risimon/tst/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'risimon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'risimon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/risimon-Jupiter:@/tmp/.ICE-unix/1001,unix/risimon-Jupiter:/tmp/.ICE-unix/1001'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2b4fd427_5fe0_47a7_af16_73ebd17bf3e0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.16ADF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/risimon/turtlebot3_ws/build/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_safety/lib/python3.10/site-packages:/home/risimon/turtlebot3_ws/build/turtlebot3_battery_status:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status/lib/python3.10/site-packages:/home/risimon/tst/build/turtlebot3_safety:/home/risimon/tst/install/turtlebot3_safety/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble')]), 'shell': False}
+[0.199214] (-) TimerEvent: {}
+[0.271643] (turtlebot3_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.271926] (turtlebot3_fake_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299345] (-) TimerEvent: {}
+[0.369474] (turtlebot3_fake_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.369874] (turtlebot3_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.381881] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.382193] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399503] (-) TimerEvent: {}
+[0.478283] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.478537] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.487310] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.487676] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.487993] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.488097] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.488494] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.488640] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.492581] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.492774] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499655] (-) TimerEvent: {}
+[0.597287] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.597582] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.599714] (-) TimerEvent: {}
+[0.605692] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.606058] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.606192] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.606537] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.606668] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.607052] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.613105] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.613444] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.699828] (-) TimerEvent: {}
+[0.800156] (-) TimerEvent: {}
+[0.831721] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.850027] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.900313] (-) TimerEvent: {}
+[0.965708] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.970987] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.971292] (turtlebot3_gazebo) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[0.971426] (turtlebot3_gazebo) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[0.971548] (turtlebot3_gazebo) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.971666] (turtlebot3_gazebo) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.971783] (turtlebot3_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.971843] (turtlebot3_gazebo) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[0.971898] (turtlebot3_gazebo) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[0.971952] (turtlebot3_gazebo) StderrLine: {'line': b'  CMakeLists.txt:23 (find_package)\n'}
+[0.972005] (turtlebot3_gazebo) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.972059] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.972112] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.976401] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.000233] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.000512] (-) TimerEvent: {}
+[1.029644] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.038646] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.052447] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.072708] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.100682] (-) TimerEvent: {}
+[1.101108] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.180742] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.200797] (-) TimerEvent: {}
+[1.239046] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.263984] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.296372] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.300927] (-) TimerEvent: {}
+[1.331428] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.401099] (-) TimerEvent: {}
+[1.415271] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.420262] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.501230] (-) TimerEvent: {}
+[1.566926] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.585567] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.592211] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.601082] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[1.601483] (-) TimerEvent: {}
+[1.611613] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.614024] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.614548] (turtlebot3_gazebo) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.621603] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.627135] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.643561] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.693948] (turtlebot3_fake_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.701636] (-) TimerEvent: {}
+[1.702264] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.709752] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.716507] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.726560] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.736024] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.736312] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.743310] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.743598] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.750248] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.750438] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.757769] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.758057] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.765236] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.765576] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.772287] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.801789] (-) TimerEvent: {}
+[1.804373] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.804934] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.901913] (-) TimerEvent: {}
+[1.922267] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.923463] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.943810] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[1.947468] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.947985] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.974654] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.991450] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.998411] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.002012] (-) TimerEvent: {}
+[2.025095] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.073258] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.096660] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.102115] (-) TimerEvent: {}
+[2.104575] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.129610] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.168138] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.189955] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.5 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[2.199889] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.202180] (-) TimerEvent: {}
+[2.203930] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.204400] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.232843] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[2.240332] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.265511] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.302340] (-) TimerEvent: {}
+[2.334236] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.338371] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.338856] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.339420] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.340597] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.342064] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.357823] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[2.358130] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found turtlebot3_msgs: 2.2.3 (/opt/ros/humble/share/turtlebot3_msgs/cmake)\n'}
+[2.358516] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.362062] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[2.362579] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.362926] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[2.367554] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[2.368028] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.402485] (-) TimerEvent: {}
+[2.502920] (-) TimerEvent: {}
+[2.519443] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[2.535754] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.555692] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.561534] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.571927] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Generating done\n'}
+[2.573909] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Build files have been written to: /home/risimon/mateEZ/vip1_ws/build/turtlebot3_fake_node\n'}
+[2.586907] (turtlebot3_fake_node) CommandEnded: {'returncode': 0}
+[2.588556] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'build'}
+[2.589216] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_fake_node', '--', '-j8', '-l8'], 'cwd': '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_fake_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'risimon'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/risimon'), ('OLDPWD', '/home/risimon/mateEZ/vip1_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1001'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install:/home/risimon/tst/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'risimon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'risimon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/risimon-Jupiter:@/tmp/.ICE-unix/1001,unix/risimon-Jupiter:/tmp/.ICE-unix/1001'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2b4fd427_5fe0_47a7_af16_73ebd17bf3e0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.16ADF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_fake_node'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/risimon/turtlebot3_ws/build/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_safety/lib/python3.10/site-packages:/home/risimon/turtlebot3_ws/build/turtlebot3_battery_status:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status/lib/python3.10/site-packages:/home/risimon/tst/build/turtlebot3_safety:/home/risimon/tst/install/turtlebot3_safety/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble')]), 'shell': False}
+[2.603036] (-) TimerEvent: {}
+[2.634947] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.645614] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.670431] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.675767] (turtlebot3_fake_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o\x1b[0m\n'}
+[2.703182] (-) TimerEvent: {}
+[2.736399] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.736847] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.737229] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[2.737669] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.747128] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[2.749803] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.793069] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.800645] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.803301] (-) TimerEvent: {}
+[2.812177] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.829492] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.854295] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.903455] (-) TimerEvent: {}
+[2.984150] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.003604] (-) TimerEvent: {}
+[3.073751] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.103745] (-) TimerEvent: {}
+[3.148434] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.152577] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.203907] (-) TimerEvent: {}
+[3.304349] (-) TimerEvent: {}
+[3.351390] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.389013] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.404517] (-) TimerEvent: {}
+[3.464107] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.478846] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.504680] (-) TimerEvent: {}
+[3.605129] (-) TimerEvent: {}
+[3.622203] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.705297] (-) TimerEvent: {}
+[3.715082] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)\n'}
+[3.805429] (-) TimerEvent: {}
+[3.837765] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.895242] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[3.898272] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/risimon/mateEZ/vip1_ws/build/turtlebot3_gazebo\n'}
+[3.905586] (-) TimerEvent: {}
+[3.917495] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[3.920224] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[3.920533] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_gazebo', '--', '-j8', '-l8'], 'cwd': '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'risimon'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/risimon'), ('OLDPWD', '/home/risimon/mateEZ/vip1_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1001'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install:/home/risimon/tst/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'risimon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'risimon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/risimon-Jupiter:@/tmp/.ICE-unix/1001,unix/risimon-Jupiter:/tmp/.ICE-unix/1001'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2b4fd427_5fe0_47a7_af16_73ebd17bf3e0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.16ADF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/risimon/turtlebot3_ws/build/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_safety/lib/python3.10/site-packages:/home/risimon/turtlebot3_ws/build/turtlebot3_battery_status:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status/lib/python3.10/site-packages:/home/risimon/tst/build/turtlebot3_safety:/home/risimon/tst/install/turtlebot3_safety/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble')]), 'shell': False}
+[3.994417] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o\x1b[0m\n'}
+[3.996528] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[3.996754] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o\x1b[0m\n'}
+[4.002575] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o\x1b[0m\n'}
+[4.005712] (-) TimerEvent: {}
+[4.106067] (-) TimerEvent: {}
+[4.206465] (-) TimerEvent: {}
+[4.306882] (-) TimerEvent: {}
+[4.407255] (-) TimerEvent: {}
+[4.507642] (-) TimerEvent: {}
+[4.608040] (-) TimerEvent: {}
+[4.708437] (-) TimerEvent: {}
+[4.808858] (-) TimerEvent: {}
+[4.909252] (-) TimerEvent: {}
+[5.009677] (-) TimerEvent: {}
+[5.110086] (-) TimerEvent: {}
+[5.210477] (-) TimerEvent: {}
+[5.310892] (-) TimerEvent: {}
+[5.411384] (-) TimerEvent: {}
+[5.511822] (-) TimerEvent: {}
+[5.612287] (-) TimerEvent: {}
+[5.712677] (-) TimerEvent: {}
+[5.813059] (-) TimerEvent: {}
+[5.913427] (-) TimerEvent: {}
+[6.013817] (-) TimerEvent: {}
+[6.114225] (-) TimerEvent: {}
+[6.214661] (-) TimerEvent: {}
+[6.315091] (-) TimerEvent: {}
+[6.415517] (-) TimerEvent: {}
+[6.515945] (-) TimerEvent: {}
+[6.616368] (-) TimerEvent: {}
+[6.716921] (-) TimerEvent: {}
+[6.817437] (-) TimerEvent: {}
+[6.917860] (-) TimerEvent: {}
+[7.018299] (-) TimerEvent: {}
+[7.118707] (-) TimerEvent: {}
+[7.219127] (-) TimerEvent: {}
+[7.319552] (-) TimerEvent: {}
+[7.419954] (-) TimerEvent: {}
+[7.520377] (-) TimerEvent: {}
+[7.620785] (-) TimerEvent: {}
+[7.721215] (-) TimerEvent: {}
+[7.821659] (-) TimerEvent: {}
+[7.922082] (-) TimerEvent: {}
+[8.022538] (-) TimerEvent: {}
+[8.122968] (-) TimerEvent: {}
+[8.223394] (-) TimerEvent: {}
+[8.323830] (-) TimerEvent: {}
+[8.424262] (-) TimerEvent: {}
+[8.524705] (-) TimerEvent: {}
+[8.625126] (-) TimerEvent: {}
+[8.725559] (-) TimerEvent: {}
+[8.825970] (-) TimerEvent: {}
+[8.926396] (-) TimerEvent: {}
+[9.026817] (-) TimerEvent: {}
+[9.127239] (-) TimerEvent: {}
+[9.227640] (-) TimerEvent: {}
+[9.328035] (-) TimerEvent: {}
+[9.428428] (-) TimerEvent: {}
+[9.528819] (-) TimerEvent: {}
+[9.629211] (-) TimerEvent: {}
+[9.729618] (-) TimerEvent: {}
+[9.830057] (-) TimerEvent: {}
+[9.930499] (-) TimerEvent: {}
+[10.030890] (-) TimerEvent: {}
+[10.131333] (-) TimerEvent: {}
+[10.231766] (-) TimerEvent: {}
+[10.332205] (-) TimerEvent: {}
+[10.432622] (-) TimerEvent: {}
+[10.533049] (-) TimerEvent: {}
+[10.633463] (-) TimerEvent: {}
+[10.733883] (-) TimerEvent: {}
+[10.834301] (-) TimerEvent: {}
+[10.934732] (-) TimerEvent: {}
+[11.035141] (-) TimerEvent: {}
+[11.135536] (-) TimerEvent: {}
+[11.235955] (-) TimerEvent: {}
+[11.336385] (-) TimerEvent: {}
+[11.436788] (-) TimerEvent: {}
+[11.537224] (-) TimerEvent: {}
+[11.637638] (-) TimerEvent: {}
+[11.738047] (-) TimerEvent: {}
+[11.838456] (-) TimerEvent: {}
+[11.938877] (-) TimerEvent: {}
+[12.039275] (-) TimerEvent: {}
+[12.139665] (-) TimerEvent: {}
+[12.240181] (-) TimerEvent: {}
+[12.340811] (-) TimerEvent: {}
+[12.441220] (-) TimerEvent: {}
+[12.541690] (-) TimerEvent: {}
+[12.642084] (-) TimerEvent: {}
+[12.742494] (-) TimerEvent: {}
+[12.842898] (-) TimerEvent: {}
+[12.943295] (-) TimerEvent: {}
+[13.043700] (-) TimerEvent: {}
+[13.144118] (-) TimerEvent: {}
+[13.244556] (-) TimerEvent: {}
+[13.344969] (-) TimerEvent: {}
+[13.445401] (-) TimerEvent: {}
+[13.545809] (-) TimerEvent: {}
+[13.646224] (-) TimerEvent: {}
+[13.746643] (-) TimerEvent: {}
+[13.847051] (-) TimerEvent: {}
+[13.947497] (-) TimerEvent: {}
+[14.047902] (-) TimerEvent: {}
+[14.148293] (-) TimerEvent: {}
+[14.248702] (-) TimerEvent: {}
+[14.349102] (-) TimerEvent: {}
+[14.449551] (-) TimerEvent: {}
+[14.550023] (-) TimerEvent: {}
+[14.650428] (-) TimerEvent: {}
+[14.750840] (-) TimerEvent: {}
+[14.774865] (turtlebot3_fake_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_fake_node\x1b[0m\n'}
+[14.850989] (-) TimerEvent: {}
+[14.951472] (-) TimerEvent: {}
+[15.051962] (-) TimerEvent: {}
+[15.152366] (-) TimerEvent: {}
+[15.252804] (-) TimerEvent: {}
+[15.353236] (-) TimerEvent: {}
+[15.453666] (-) TimerEvent: {}
+[15.554080] (-) TimerEvent: {}
+[15.636027] (turtlebot3_fake_node) StdoutLine: {'line': b'[100%] Built target turtlebot3_fake_node\n'}
+[15.653631] (turtlebot3_fake_node) CommandEnded: {'returncode': 0}
+[15.654256] (-) TimerEvent: {}
+[15.692983] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'install'}
+[15.706869] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_fake_node'], 'cwd': '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_fake_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'risimon'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/risimon'), ('OLDPWD', '/home/risimon/mateEZ/vip1_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1001'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install:/home/risimon/tst/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'risimon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'risimon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/risimon-Jupiter:@/tmp/.ICE-unix/1001,unix/risimon-Jupiter:/tmp/.ICE-unix/1001'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2b4fd427_5fe0_47a7_af16_73ebd17bf3e0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.16ADF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_fake_node'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/risimon/turtlebot3_ws/build/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_safety/lib/python3.10/site-packages:/home/risimon/turtlebot3_ws/build/turtlebot3_battery_status:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status/lib/python3.10/site-packages:/home/risimon/tst/build/turtlebot3_safety:/home/risimon/tst/install/turtlebot3_safety/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble')]), 'shell': False}
+[15.717233] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.717598] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node\n'}
+[15.724167] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Set runtime path of "/home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""\n'}
+[15.724455] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch\n'}
+[15.724668] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py\n'}
+[15.724882] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py\n'}
+[15.725033] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param\n'}
+[15.725219] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml\n'}
+[15.725431] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml\n'}
+[15.725634] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml\n'}
+[15.725825] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/include/\n'}
+[15.726003] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node\n'}
+[15.726114] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp\n'}
+[15.726291] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node\n'}
+[15.726548] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node\n'}
+[15.726835] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh\n'}
+[15.727079] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv\n'}
+[15.727270] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh\n'}
+[15.727442] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv\n'}
+[15.727631] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash\n'}
+[15.727806] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh\n'}
+[15.727982] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh\n'}
+[15.728163] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv\n'}
+[15.728352] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv\n'}
+[15.728676] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node\n'}
+[15.728948] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.729157] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.729338] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake\n'}
+[15.729526] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake\n'}
+[15.729712] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml\n'}
+[15.732629] (turtlebot3_fake_node) CommandEnded: {'returncode': 0}
+[15.754437] (-) TimerEvent: {}
+[15.855354] (-) TimerEvent: {}
+[15.912034] (turtlebot3_fake_node) JobEnded: {'identifier': 'turtlebot3_fake_node', 'rc': 0}
+[15.955509] (-) TimerEvent: {}
+[16.055925] (-) TimerEvent: {}
+[16.156338] (-) TimerEvent: {}
+[16.256758] (-) TimerEvent: {}
+[16.357151] (-) TimerEvent: {}
+[16.457565] (-) TimerEvent: {}
+[16.557942] (-) TimerEvent: {}
+[16.658313] (-) TimerEvent: {}
+[16.758697] (-) TimerEvent: {}
+[16.859068] (-) TimerEvent: {}
+[16.959443] (-) TimerEvent: {}
+[17.059851] (-) TimerEvent: {}
+[17.160258] (-) TimerEvent: {}
+[17.260672] (-) TimerEvent: {}
+[17.361073] (-) TimerEvent: {}
+[17.461617] (-) TimerEvent: {}
+[17.562023] (-) TimerEvent: {}
+[17.662434] (-) TimerEvent: {}
+[17.762822] (-) TimerEvent: {}
+[17.863240] (-) TimerEvent: {}
+[17.963668] (-) TimerEvent: {}
+[18.064062] (-) TimerEvent: {}
+[18.164471] (-) TimerEvent: {}
+[18.264881] (-) TimerEvent: {}
+[18.365295] (-) TimerEvent: {}
+[18.465705] (-) TimerEvent: {}
+[18.566121] (-) TimerEvent: {}
+[18.666509] (-) TimerEvent: {}
+[18.766897] (-) TimerEvent: {}
+[18.867292] (-) TimerEvent: {}
+[18.942042] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[18.967421] (-) TimerEvent: {}
+[19.067806] (-) TimerEvent: {}
+[19.168258] (-) TimerEvent: {}
+[19.268697] (-) TimerEvent: {}
+[19.321581] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libobstacles.so\x1b[0m\n'}
+[19.368848] (-) TimerEvent: {}
+[19.469266] (-) TimerEvent: {}
+[19.569741] (-) TimerEvent: {}
+[19.670133] (-) TimerEvent: {}
+[19.711718] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] Built target obstacles\n'}
+[19.770269] (-) TimerEvent: {}
+[19.787592] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] Built target turtlebot3_drive\n'}
+[19.870436] (-) TimerEvent: {}
+[19.970875] (-) TimerEvent: {}
+[20.071263] (-) TimerEvent: {}
+[20.171642] (-) TimerEvent: {}
+[20.272025] (-) TimerEvent: {}
+[20.372407] (-) TimerEvent: {}
+[20.472766] (-) TimerEvent: {}
+[20.573142] (-) TimerEvent: {}
+[20.673560] (-) TimerEvent: {}
+[20.773925] (-) TimerEvent: {}
+[20.874313] (-) TimerEvent: {}
+[20.974674] (-) TimerEvent: {}
+[21.075036] (-) TimerEvent: {}
+[21.175415] (-) TimerEvent: {}
+[21.275784] (-) TimerEvent: {}
+[21.376171] (-) TimerEvent: {}
+[21.476616] (-) TimerEvent: {}
+[21.513392] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle2.so\x1b[0m\n'}
+[21.563753] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle1.so\x1b[0m\n'}
+[21.576769] (-) TimerEvent: {}
+[21.677219] (-) TimerEvent: {}
+[21.777695] (-) TimerEvent: {}
+[21.852357] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacle2\n'}
+[21.877838] (-) TimerEvent: {}
+[21.892929] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacle1\n'}
+[21.908947] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[21.976054] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'install'}
+[21.977341] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_gazebo'], 'cwd': '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'risimon'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/risimon'), ('OLDPWD', '/home/risimon/mateEZ/vip1_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1001'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install:/home/risimon/tst/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'risimon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'risimon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/risimon-Jupiter:@/tmp/.ICE-unix/1001,unix/risimon-Jupiter:/tmp/.ICE-unix/1001'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2b4fd427_5fe0_47a7_af16_73ebd17bf3e0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.16ADF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/risimon/turtlebot3_ws/build/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_safety/lib/python3.10/site-packages:/home/risimon/turtlebot3_ws/build/turtlebot3_battery_status:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status/lib/python3.10/site-packages:/home/risimon/tst/build/turtlebot3_safety:/home/risimon/tst/install/turtlebot3_safety/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble')]), 'shell': False}
+[21.977964] (-) TimerEvent: {}
+[21.987475] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.988094] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive\n'}
+[21.997034] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Set runtime path of "/home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""\n'}
+[21.997552] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch\n'}
+[21.997920] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py\n'}
+[21.998006] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py\n'}
+[21.998168] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py\n'}
+[21.998334] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py\n'}
+[21.998427] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py\n'}
+[21.998522] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py\n'}
+[21.998615] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py\n'}
+[21.998683] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py\n'}
+[21.998794] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py\n'}
+[21.998893] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models\n'}
+[21.998958] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common\n'}
+[21.999058] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config\n'}
+[21.999154] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes\n'}
+[21.999218] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae\n'}
+[21.999343] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae\n'}
+[21.999509] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae\n'}
+[21.999683] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae\n'}
+[22.000184] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae\n'}
+[22.000392] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae\n'}
+[22.000581] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle\n'}
+[22.000758] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config\n'}
+[22.000929] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf\n'}
+[22.001069] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[22.001170] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house\n'}
+[22.001264] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config\n'}
+[22.001466] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf\n'}
+[22.001849] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world\n'}
+[22.001986] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config\n'}
+[22.002108] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes\n'}
+[22.002207] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[22.002355] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae\n'}
+[22.002543] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf\n'}
+[22.002717] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf\n'}
+[22.002895] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi\n'}
+[22.003194] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config\n'}
+[22.003383] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf\n'}
+[22.003531] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf\n'}
+[22.003766] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger\n'}
+[22.003984] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config\n'}
+[22.004194] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf\n'}
+[22.004412] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf\n'}
+[22.004697] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world\n'}
+[22.004916] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box\n'}
+[22.005142] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config\n'}
+[22.005389] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf\n'}
+[22.005666] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config\n'}
+[22.005910] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin\n'}
+[22.006106] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt\n'}
+[22.006307] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc\n'}
+[22.006581] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc\n'}
+[22.006779] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc\n'}
+[22.006986] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2\n'}
+[22.007158] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config\n'}
+[22.007352] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf\n'}
+[22.007531] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1\n'}
+[22.007723] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config\n'}
+[22.007973] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf\n'}
+[22.008188] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf\n'}
+[22.008382] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls\n'}
+[22.008603] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config\n'}
+[22.008818] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf\n'}
+[22.009018] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles\n'}
+[22.009194] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config\n'}
+[22.009351] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf\n'}
+[22.009545] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz\n'}
+[22.009709] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz\n'}
+[22.009864] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf\n'}
+[22.010016] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf\n'}
+[22.010168] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf\n'}
+[22.010334] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf\n'}
+[22.010484] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf\n'}
+[22.010633] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds\n'}
+[22.010782] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world\n'}
+[22.010912] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world\n'}
+[22.011063] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world\n'}
+[22.011197] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world\n'}
+[22.011320] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world\n'}
+[22.011492] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world\n'}
+[22.011641] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world\n'}
+[22.011759] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/include/\n'}
+[22.011907] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo\n'}
+[22.012027] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp\n'}
+[22.012178] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo\n'}
+[22.012298] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo\n'}
+[22.012448] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh\n'}
+[22.012596] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv\n'}
+[22.012760] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh\n'}
+[22.012927] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv\n'}
+[22.013088] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash\n'}
+[22.013249] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh\n'}
+[22.013465] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh\n'}
+[22.013638] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv\n'}
+[22.013804] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv\n'}
+[22.013996] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo\n'}
+[22.014232] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.014403] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.014575] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake\n'}
+[22.014737] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake\n'}
+[22.014901] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml\n'}
+[22.018264] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[22.078905] (-) TimerEvent: {}
+[22.179337] (-) TimerEvent: {}
+[22.254899] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 0}
+[22.255495] (turtlebot3_simulations) JobStarted: {'identifier': 'turtlebot3_simulations'}
+[22.279724] (-) TimerEvent: {}
+[22.338911] (turtlebot3_simulations) JobProgress: {'identifier': 'turtlebot3_simulations', 'progress': 'cmake'}
+[22.339897] (turtlebot3_simulations) Command: {'cmd': ['/usr/bin/cmake', '/home/risimon/mateEZ/vip1_ws/src/turtlebot3_simulations/turtlebot3_simulations', '-DCMAKE_INSTALL_PREFIX=/home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations'], 'cwd': '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_simulations', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'risimon'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/risimon'), ('OLDPWD', '/home/risimon/mateEZ/vip1_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1001'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install:/home/risimon/tst/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'risimon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'risimon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/risimon-Jupiter:@/tmp/.ICE-unix/1001,unix/risimon-Jupiter:/tmp/.ICE-unix/1001'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2b4fd427_5fe0_47a7_af16_73ebd17bf3e0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.16ADF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_simulations'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/risimon/turtlebot3_ws/build/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_safety/lib/python3.10/site-packages:/home/risimon/turtlebot3_ws/build/turtlebot3_battery_status:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status/lib/python3.10/site-packages:/home/risimon/tst/build/turtlebot3_safety:/home/risimon/tst/install/turtlebot3_safety/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble')]), 'shell': False}
+[22.379910] (-) TimerEvent: {}
+[22.434006] (turtlebot3_simulations) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[22.480062] (-) TimerEvent: {}
+[22.504073] (turtlebot3_simulations) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[22.514703] (turtlebot3_simulations) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[22.580222] (-) TimerEvent: {}
+[22.627835] (turtlebot3_simulations) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[22.635343] (turtlebot3_simulations) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[22.635638] (turtlebot3_simulations) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[22.635947] (turtlebot3_simulations) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[22.639119] (turtlebot3_simulations) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[22.680366] (-) TimerEvent: {}
+[22.776983] (turtlebot3_simulations) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[22.780467] (-) TimerEvent: {}
+[22.784779] (turtlebot3_simulations) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[22.785133] (turtlebot3_simulations) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[22.785535] (turtlebot3_simulations) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[22.789688] (turtlebot3_simulations) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[22.880649] (-) TimerEvent: {}
+[22.981140] (-) TimerEvent: {}
+[23.048211] (turtlebot3_simulations) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[23.081285] (-) TimerEvent: {}
+[23.181722] (-) TimerEvent: {}
+[23.282179] (-) TimerEvent: {}
+[23.300643] (turtlebot3_simulations) StdoutLine: {'line': b'-- Configuring done\n'}
+[23.303988] (turtlebot3_simulations) StdoutLine: {'line': b'-- Generating done\n'}
+[23.304907] (turtlebot3_simulations) StdoutLine: {'line': b'-- Build files have been written to: /home/risimon/mateEZ/vip1_ws/build/turtlebot3_simulations\n'}
+[23.310635] (turtlebot3_simulations) CommandEnded: {'returncode': 0}
+[23.311729] (turtlebot3_simulations) JobProgress: {'identifier': 'turtlebot3_simulations', 'progress': 'build'}
+[23.313013] (turtlebot3_simulations) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_simulations', '--', '-j8', '-l8'], 'cwd': '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_simulations', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'risimon'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/risimon'), ('OLDPWD', '/home/risimon/mateEZ/vip1_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1001'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install:/home/risimon/tst/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'risimon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'risimon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/risimon-Jupiter:@/tmp/.ICE-unix/1001,unix/risimon-Jupiter:/tmp/.ICE-unix/1001'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2b4fd427_5fe0_47a7_af16_73ebd17bf3e0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.16ADF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_simulations'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/risimon/turtlebot3_ws/build/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_safety/lib/python3.10/site-packages:/home/risimon/turtlebot3_ws/build/turtlebot3_battery_status:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status/lib/python3.10/site-packages:/home/risimon/tst/build/turtlebot3_safety:/home/risimon/tst/install/turtlebot3_safety/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble')]), 'shell': False}
+[23.376999] (turtlebot3_simulations) CommandEnded: {'returncode': 0}
+[23.382304] (-) TimerEvent: {}
+[23.416114] (turtlebot3_simulations) JobProgress: {'identifier': 'turtlebot3_simulations', 'progress': 'install'}
+[23.417403] (turtlebot3_simulations) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_simulations'], 'cwd': '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_simulations', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'risimon'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/risimon'), ('OLDPWD', '/home/risimon/mateEZ/vip1_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1001'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/risimon/turtlebot3_ws/install:/home/risimon/tst/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'risimon'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'risimon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/risimon-Jupiter:@/tmp/.ICE-unix/1001,unix/risimon-Jupiter:/tmp/.ICE-unix/1001'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2b4fd427_5fe0_47a7_af16_73ebd17bf3e0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.16ADF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_simulations'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/risimon/turtlebot3_ws/build/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_safety/lib/python3.10/site-packages:/home/risimon/turtlebot3_ws/build/turtlebot3_battery_status:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status/lib/python3.10/site-packages:/home/risimon/tst/build/turtlebot3_safety:/home/risimon/tst/install/turtlebot3_safety/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble')]), 'shell': False}
+[23.426520] (turtlebot3_simulations) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.426881] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations\n'}
+[23.427165] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations\n'}
+[23.427439] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh\n'}
+[23.427597] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.dsv\n'}
+[23.427691] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh\n'}
+[23.427810] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.dsv\n'}
+[23.427919] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash\n'}
+[23.428081] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh\n'}
+[23.428247] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh\n'}
+[23.428388] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.dsv\n'}
+[23.428556] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv\n'}
+[23.428776] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations\n'}
+[23.428984] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake\n'}
+[23.429129] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake\n'}
+[23.429292] (turtlebot3_simulations) StdoutLine: {'line': b'-- Installing: /home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml\n'}
+[23.432277] (turtlebot3_simulations) CommandEnded: {'returncode': 0}
+[23.482851] (-) TimerEvent: {}
+[23.583192] (-) TimerEvent: {}
+[23.613837] (turtlebot3_simulations) JobEnded: {'identifier': 'turtlebot3_simulations', 'rc': 0}
+[23.614936] (turtlebot3_safety) JobStarted: {'identifier': 'turtlebot3_safety'}
+[23.683318] (-) TimerEvent: {}
+[23.783711] (-) TimerEvent: {}
+[23.884108] (-) TimerEvent: {}
+[23.984462] (-) TimerEvent: {}
+[24.084819] (-) TimerEvent: {}
+[24.185204] (-) TimerEvent: {}
+[24.285618] (-) TimerEvent: {}
+[24.386028] (-) TimerEvent: {}
+[24.407619] (turtlebot3_safety) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlebot3_safety', 'build', '--build-base', '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/build', 'install', '--record', '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/install.log', '--single-version-externally-managed'], 'cwd': '/home/risimon/mateEZ/vip1_ws/src/autonomous_driving', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'risimon', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/risimon', 'OLDPWD': '/home/risimon/mateEZ/vip1_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1001', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/risimon/turtlebot3_ws/install:/home/risimon/tst/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'risimon', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'risimon', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/risimon-Jupiter:@/tmp/.ICE-unix/1001,unix/risimon-Jupiter:/tmp/.ICE-unix/1001', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2b4fd427_5fe0_47a7_af16_73ebd17bf3e0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.16ADF2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.123', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status:/home/risimon/tst/install/turtlebot3_safety:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b7d6d26487ba6691e7486c1a656d52e8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/prefix_override:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/python3.10/site-packages:/home/risimon/turtlebot3_ws/build/turtlebot3_safety:/home/risimon/turtlebot3_ws/install/turtlebot3_safety/lib/python3.10/site-packages:/home/risimon/turtlebot3_ws/build/turtlebot3_battery_status:/home/risimon/turtlebot3_ws/install/turtlebot3_battery_status/lib/python3.10/site-packages:/home/risimon/tst/build/turtlebot3_safety:/home/risimon/tst/install/turtlebot3_safety/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/risimon/mateEZ/vip1_ws/install/turtlebot3_simulations:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_gazebo:/home/risimon/mateEZ/vip1_ws/install/turtlebot3_fake_node:/home/risimon/turtlebot3_ws/install/turtlebot3_simulations:/home/risimon/turtlebot3_ws/install/turtlebot3_gazebo:/home/risimon/turtlebot3_ws/install/turtlebot3_fake_node'}, 'shell': False}
+[24.486147] (-) TimerEvent: {}
+[24.586590] (-) TimerEvent: {}
+[24.636398] (turtlebot3_safety) StdoutLine: {'line': b'running egg_info\n'}
+[24.636920] (turtlebot3_safety) StdoutLine: {'line': b'creating ../../build/turtlebot3_safety/autonomous_driving.egg-info\n'}
+[24.637131] (turtlebot3_safety) StdoutLine: {'line': b'writing ../../build/turtlebot3_safety/autonomous_driving.egg-info/PKG-INFO\n'}
+[24.637385] (turtlebot3_safety) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlebot3_safety/autonomous_driving.egg-info/dependency_links.txt\n'}
+[24.637557] (turtlebot3_safety) StdoutLine: {'line': b'writing entry points to ../../build/turtlebot3_safety/autonomous_driving.egg-info/entry_points.txt\n'}
+[24.637730] (turtlebot3_safety) StdoutLine: {'line': b'writing requirements to ../../build/turtlebot3_safety/autonomous_driving.egg-info/requires.txt\n'}
+[24.637824] (turtlebot3_safety) StdoutLine: {'line': b'writing top-level names to ../../build/turtlebot3_safety/autonomous_driving.egg-info/top_level.txt\n'}
+[24.637951] (turtlebot3_safety) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot3_safety/autonomous_driving.egg-info/SOURCES.txt'\n"}
+[24.639737] (turtlebot3_safety) StdoutLine: {'line': b"reading manifest file '../../build/turtlebot3_safety/autonomous_driving.egg-info/SOURCES.txt'\n"}
+[24.640381] (turtlebot3_safety) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot3_safety/autonomous_driving.egg-info/SOURCES.txt'\n"}
+[24.640702] (turtlebot3_safety) StdoutLine: {'line': b'running build\n'}
+[24.640875] (turtlebot3_safety) StdoutLine: {'line': b'running build_py\n'}
+[24.640955] (turtlebot3_safety) StdoutLine: {'line': b'creating /home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/build\n'}
+[24.641012] (turtlebot3_safety) StdoutLine: {'line': b'creating /home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/build/lib\n'}
+[24.641067] (turtlebot3_safety) StdoutLine: {'line': b'creating /home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/build/lib/autonomous_driving\n'}
+[24.641121] (turtlebot3_safety) StdoutLine: {'line': b'copying autonomous_driving/__init__.py -> /home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/build/lib/autonomous_driving\n'}
+[24.641176] (turtlebot3_safety) StdoutLine: {'line': b'running install\n'}
+[24.642022] (turtlebot3_safety) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[24.642146] (turtlebot3_safety) StderrLine: {'line': b'  warnings.warn(\n'}
+[24.642358] (turtlebot3_safety) StdoutLine: {'line': b'running install_lib\n'}
+[24.643164] (turtlebot3_safety) StdoutLine: {'line': b'creating /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/python3.10/site-packages/autonomous_driving\n'}
+[24.643307] (turtlebot3_safety) StdoutLine: {'line': b'copying /home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/build/lib/autonomous_driving/__init__.py -> /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/python3.10/site-packages/autonomous_driving\n'}
+[24.644035] (turtlebot3_safety) StdoutLine: {'line': b'byte-compiling /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/python3.10/site-packages/autonomous_driving/__init__.py to __init__.cpython-310.pyc\n'}
+[24.644260] (turtlebot3_safety) StdoutLine: {'line': b'running install_data\n'}
+[24.644805] (turtlebot3_safety) StdoutLine: {'line': b'copying resource/autonomous_driving -> /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/share/ament_index/resource_index/packages\n'}
+[24.645003] (turtlebot3_safety) StdoutLine: {'line': b'creating /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/share/autonomous_driving\n'}
+[24.645127] (turtlebot3_safety) StdoutLine: {'line': b'copying package.xml -> /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/share/autonomous_driving\n'}
+[24.645279] (turtlebot3_safety) StdoutLine: {'line': b'creating /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/share/autonomous_driving/launch\n'}
+[24.645372] (turtlebot3_safety) StdoutLine: {'line': b'creating /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/share/autonomous_driving/rviz\n'}
+[24.645454] (turtlebot3_safety) StdoutLine: {'line': b'creating /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/share/autonomous_driving/worlds\n'}
+[24.645520] (turtlebot3_safety) StdoutLine: {'line': b'running install_egg_info\n'}
+[24.647033] (turtlebot3_safety) StdoutLine: {'line': b'Copying ../../build/turtlebot3_safety/autonomous_driving.egg-info to /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/python3.10/site-packages/autonomous_driving-0.1.0-py3.10.egg-info\n'}
+[24.647942] (turtlebot3_safety) StdoutLine: {'line': b'running install_scripts\n'}
+[24.668627] (turtlebot3_safety) StdoutLine: {'line': b'Installing obstacle_avoidance script to /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/autonomous_driving\n'}
+[24.668978] (turtlebot3_safety) StdoutLine: {'line': b'Installing wall_following script to /home/risimon/mateEZ/vip1_ws/install/turtlebot3_safety/lib/autonomous_driving\n'}
+[24.669198] (turtlebot3_safety) StdoutLine: {'line': b"writing list of installed files to '/home/risimon/mateEZ/vip1_ws/build/turtlebot3_safety/install.log'\n"}
+[24.686725] (-) TimerEvent: {}
+[24.702916] (turtlebot3_safety) CommandEnded: {'returncode': 0}
+[24.786912] (-) TimerEvent: {}
+[24.792828] (turtlebot3_safety) JobEnded: {'identifier': 'turtlebot3_safety', 'rc': 0}
+[24.793913] (-) EventReactorShutdown: {}
