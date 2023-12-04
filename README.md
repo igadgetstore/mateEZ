@@ -33,12 +33,12 @@ https://github.com/igadgetstore/mateEZ.git
 cd ~/mateEZ/vip1_ws
 ```
 - Resolve dependencies
-- 
+  
 ```bash
 rosdep install -i --from-path src --rosdistro humble -y
 ```
 - Build the workspace with colcon
-- 
+  
 ```bash
 colcon build
 ```
